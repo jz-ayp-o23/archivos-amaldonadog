@@ -15,4 +15,4 @@ with open(archivo_entrada,"r",encoding="utf8") as f, open (archivo_salida,"w",en
         promedio = (sum(calis)/len(calis))
 
         #Escribe el resultado en el nuevo archivo
-        h.write(f"{apellido}, {nombre}: {round(promedio,2)}\n")
+        h.write(f"{apellido}, {nombre}: {round(promedio,1)}\n")
